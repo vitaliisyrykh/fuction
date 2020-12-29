@@ -8,14 +8,14 @@ const createKeyAndInfo = (familyObj) => {
   
   
   
-  function info (email, age, info) {
+  function infoFamily (email, age, info) {
     this.info = info;
     this.email = email;
     this.age = age;
   }
   
   
-  return (familyObj[nameKey] = [new info(email, ageUser, userInfo)]);
+  return (familyObj[nameKey] = [new infoFamily(email, ageUser, userInfo)]);
 };
 
 console.log(createKeyAndInfo(family));
